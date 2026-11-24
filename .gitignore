@@ -1,0 +1,22 @@
+# This folder is also a Python virtualenv: ignore everything by default,
+# then explicitly include the project files.
+*
+!*/
+
+!.gitignore
+!README.md
+!requirements.txt
+
+!Lib/*.py
+!Lib/*.html
+!overleafimages/*
+
+# never commit venv internals / scratch
+Lib/site-packages/
+Scripts/
+Include/
+share/
+.idea/
+__pycache__/
+Lib/testingshut.py
+.env
